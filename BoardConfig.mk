@@ -88,7 +88,9 @@ TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_TOOLBOX := true
+TW_FORCE_USE_BUSYBOX := true
 TW_INCLUDE_CRYPTO := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+
